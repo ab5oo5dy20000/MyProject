@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+	<defs>
+		<style>
+			.brand-green { fill: #0B5B3B; stroke: #0B5B3B; }
+			.bg { fill: #ffffff; }
+			.headline { font-family: 'Tajawal', 'Cairo', 'Noto Kufi Arabic', sans-serif; font-size: 92px; font-weight: 700; fill: #0B5B3B; }
+			.tagline { font-family: 'Tajawal', 'Cairo', 'Noto Kufi Arabic', sans-serif; font-size: 52px; font-weight: 600; fill: #0B5B3B; }
+			.small { font-family: 'Tajawal', 'Cairo', 'Noto Kufi Arabic', sans-serif; font-size: 40px; font-weight: 500; fill: #0B5B3B; }
+			.cta { font-family: 'Tajawal', 'Cairo', 'Noto Kufi Arabic', sans-serif; font-size: 44px; font-weight: 700; fill: #ffffff; }
+		</style>
+	</defs>
+
+	<rect class="bg" x="0" y="0" width="1080" height="1920" />
+	<rect x="30" y="30" width="1020" height="1860" rx="36" ry="36" fill="none" stroke="#0B5B3B" stroke-width="10"/>
+
+	<!-- Decorative swoosh -->
+	<path d="M100 1520 C460 1460, 640 1660, 980 1600" fill="none" stroke="#0B5B3B" stroke-width="10" stroke-linecap="round"/>
+
+	<!-- Top brand line -->
+	<text x="1000" y="160" text-anchor="end" direction="rtl" unicode-bidi="bidi-override" class="tagline">كياف للقهوة المختصة</text>
+
+	<!-- Optional large wordmark if you don't place the logo image -->
+	<text x="1000" y="320" text-anchor="end" direction="rtl" unicode-bidi="bidi-override" style="font-family:'Tajawal','Cairo','Noto Naskh Arabic',serif; font-size:120px; font-weight:700; fill:#0B5B3B;">كياف</text>
+
+	<!-- Big headline -->
+	<text x="920" y="820" text-anchor="end" direction="rtl" unicode-bidi="bidi-override" class="headline">قهوتك على مزاجك</text>
+
+	<!-- Service hours -->
+	<text x="920" y="910" text-anchor="end" direction="rtl" unicode-bidi="bidi-override" class="small">في خدمتكم ٢٤ ساعة</text>
+
+	<!-- Location -->
+	<text x="920" y="980" text-anchor="end" direction="rtl" unicode-bidi="bidi-override" class="small">القوز – طريق المتاجر</text>
+
+	<!-- CTA pill -->
+	<rect x="120" y="1700" rx="28" ry="28" width="360" height="90" fill="#0B5B3B"/>
+	<text x="300" y="1762" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override" class="cta">اسحب للأعلى للخرائط</text>
+</svg>
